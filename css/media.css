@@ -1,0 +1,188 @@
+@media(max-width:668px)
+{
+	/********************Home Page*************************/
+	.menu ul li a{
+		font-size: 14px;
+		padding: 2px 2px;
+		margin: 0 8px;
+		border-bottom: 1px solid transparent;
+	}
+
+	.home2{
+		text-align: center;
+		padding: 150px 0 60px 0;
+	}	
+
+	.home2 h1{
+		font-size: 40px;
+		margin-bottom: 40px;
+	}
+
+	.home2 .home-buttons button{
+		height: 30px;
+		width: 100px;
+		padding: 5px;
+		margin: 6px;
+		font-size: 14px;
+	}
+
+	.welcome{
+		font-size: 15px;
+	}
+
+	.social-media{
+		position: absolute;
+		top: 48%;
+		right: 3px;
+	}
+
+	.social-media li{
+		list-style: none;
+		padding: 7px;
+		margin: 9px;
+		
+	}
+	.social-media li a{
+		color: white;
+		font-size: 17px;
+		
+	}
+
+	/************About Us Page*************/
+
+	.about-area{
+		width: 100%;
+	}
+	.about-area .about-us h1{
+		padding-bottom: 12px;
+	}
+
+	.about-area .about-us p{
+		font-size: 14px;
+
+	}
+
+	.meet-team .page-title h2{
+		text-align: center;
+		margin: 20px;
+		font-size: 25px;
+	}
+
+	.team-member{
+		width: 94%;
+		margin: 8px 12px;	
+	}
+
+	.team-member a{
+		text-decoration: none;
+		color: #f39c12;
+		font-size: 15px;
+		padding-bottom: 8px;
+		display: inline-block;
+	}
+
+	.customer-review h2{
+		text-align: center;
+		padding: 20px 0 7px 0;
+		font-size: 25px;
+	}
+
+	.review-list{
+		padding: 7px 3px;
+	}
+
+	.review{
+		width: 85%;
+		padding: 20px 20px;
+		background-color: #dfe6e9;
+		margin: 17px 0;
+		border-radius: 10px;
+	}
+
+	/***********Menu Page************/
+
+	.menu-area{
+		width: 80%;
+		padding: 6px;
+	}
+
+	.food-box{
+		text-align: center;
+		margin: 15px;
+		padding: 17px 7px;
+		width: 90%;
+	}
+
+	.food-box button{
+		background: black;
+		color: white;
+		padding: 7px 17px;
+		border-radius: 25px;
+		margin-top: 14px;
+	}
+
+	.cart1{
+		position: absolute;
+		top: 20px;
+		right: 20px;
+	}
+
+	.cart1 ul li{
+		font-size: 20px;
+	}
+
+	/*********contact page************/
+	.contact-box{
+		width: 80%;
+	}
+	
+	/****problem below******/
+	.contact-box .social-media{
+		
+		position: relative;	
+	}
+
+	.contact-box .social-media ul{
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+		position: absolute;
+		top: 0;
+		left: 20%;
+		z-index: 1000;
+	}/***problem here*/
+
+
+	.map1{
+		text-align: center;
+		margin: 30px 0;
+		
+	}
+	/***********Log In Page*****************/
+	.login-box{
+		width: 80%;
+	}
+
+	
+	.login-box .social-media{
+		
+		position: relative;
+		
+	}
+
+	.login-box .social-media ul{
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+		position: absolute;
+		left: 50%;
+		transform: translateX(-50%);
+	}
+
+	.social-media ul li{
+		list-style: none;
+		margin: 7px;
+		font-size: 18px;
+	}
+
+}
